@@ -16,8 +16,9 @@ nav {
 
 a {
     margin: 0px 5px;
+    position: relative;
+    right: 213px;
 }
-
 
 header {
     padding: 20px;
@@ -56,6 +57,14 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.group {
+    margin: 15px;
+}
 
 hr {
     color:#dddddd;  
@@ -100,19 +109,21 @@ h3 {
     background: #777777;
     font-size: 9px;
     height: 30px;
-    position: absolute;
+    position: relative;
     left: 0 ; right: 0; bottom: 0;
     border-top: 8px solid #4aaaa5;
     }
 
-.header {
-    margin-top: 5px;
-    z-index: 5;
-}
+    .header {
+        margin-top: 5px;
+        z-index: 5;
+        position: relative;
+        top: 150px;
+    }
 
 .image {
-    margin-bottom: 15px;
-    z-index: -5;
+    margin-bottom: 0px;
+    z-index: 0;
 }
 
 button {
