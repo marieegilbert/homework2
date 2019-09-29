@@ -152,3 +152,15 @@ input {
 h4 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 640px and up)
+@media (min-width: 640px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 980px and up)
+@media (min-width: 980px) { ... }
